@@ -1,0 +1,66 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  a,
+  a:hover {
+      text-decoration: none;
+      color: #000;
+  }
+
+  /* Slider Start */
+  #SliderPart {
+      padding: 100px 0px;
+  }
+
+  .overly {
+      background: rgba(0, 0, 0, 0.5);
+      height: 450px;
+  }
+
+  .slider01 {
+      background: url(/images/01.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+
+  .slider02 {
+      background: url(/images/02.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+
+  .slider03 {
+      background: url(/images/03.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+
+  .prev {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      font-size: 40px;
+      color: #fff;
+      z-index: 99;
+      cursor: pointer;
+      margin-left: 10px;
+  }
+
+  .next {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      font-size: 40px;
+      color: #fff;
+      z-index: 99;
+      cursor: pointer;
+      margin-right: 10px;
+  }
+
+  /* Slider End */
