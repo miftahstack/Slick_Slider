@@ -21,21 +21,21 @@
   }
 
   .slider01 {
-      background: url(/images/01.jpg);
+      background: url(../images/01.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
   }
 
   .slider02 {
-      background: url(/images/02.jpg);
+      background: url(../images/02.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
   }
 
   .slider03 {
-      background: url(/images/03.jpg);
+      background: url(../images/03.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
