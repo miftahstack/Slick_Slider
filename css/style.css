@@ -10,9 +10,26 @@
       color: #000;
   }
 
+  ul,
+  ol {
+      list-style: none;
+
+  }
+
+  li {
+      display: inline-block;
+  }
+
   /* Slider Start */
   #SliderPart {
-      padding: 100px 0px;
+      padding: 30px 0px 700px;
+      background: #fff;
+  }
+
+  #SliderPart h1 {
+      text-align: center;
+      padding-bottom: 10px;
+      color: #000;
   }
 
   .overly {
@@ -63,4 +80,36 @@
       margin-right: 10px;
   }
 
+  .slick-dots {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .slick-dots button {
+      font-size: 0;
+      border: none;
+      height: 12.5px;
+      width: 12.5px;
+      border-radius: 100%;
+      background: #98D2C0;
+      text-align: center;
+      margin-right: 7px;
+
+  }
+
   /* Slider End */
+
+  /* BactoTop End */
+  .bactoTop svg {
+      width: 40px;
+      height: 40px;
+      position: fixed;
+      fill: linear-gradient(to right, #ff4013, #0061ff);
+      ;
+      bottom: 30px;
+      right: 30px;
+      cursor: pointer;
+  }
+
+  /* BactoTop End */
